@@ -1076,3 +1076,16 @@ section {
     padding-right: 20px 15px;
   }
 }
+#loading{
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background: #fff url("../img/SAP-logos_transparent.png");
+  background-repeat: no-repeat;
+  background-position:center;
+  z-index: 10099999;
+}
+
