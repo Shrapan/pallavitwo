@@ -62,7 +62,8 @@
 
 </head>
 
-<body>
+<body onload="myfun()">
+  <div id="loading"></div>
 
   <!-- ======= Mobile nav toggle button ======= -->
   <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
@@ -859,6 +860,16 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+   <script> 
+    var preloader=document.getElementById("loading");
+   function myfun(){
+    setTimeout(myfunction,1000);
+   }
+    function myfunction(){
+        preloader.style.display="none";
+    }
+ 
+ </script> 
 
 </body>
 
